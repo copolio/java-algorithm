@@ -24,4 +24,5 @@ public class Class05 {
         String answer = String.valueOf(chars);
         System.out.print(answer);
     }
+
 }
