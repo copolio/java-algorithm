@@ -1,5 +1,4 @@
 package com.company.inflearn.string;
-
 import java.util.Scanner;
 
 public class Class08 {
