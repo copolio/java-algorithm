@@ -8,10 +8,11 @@ public class Class12 {
         int nCode = Integer.parseInt(scanner.nextLine(), 10);
         String answer = "";
         String input = scanner.nextLine();
+        int tokenSize = input.length() / nCode;
+        input = input.replace("#", "1");
+        input = input.replace("*", "0");
         for (int i = 0; i < nCode; i++) {
-            String code = input.substring(i * (input.length() / nCode), input.length() / nCode);
-            code = code.replace("#", "1");
-            code = code.replace("*", "0");
+            String code = input.substring(i * (tokenSize), (i + 1)*tokenSize);
             int binaryCode = Integer.parseInt(code, 2);
             answer += (char)binaryCode;
         }
