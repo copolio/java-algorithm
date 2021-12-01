@@ -1,4 +1,4 @@
-package com.company.inflearn.stack;
+package com.company.inflearn.stackqueue;
 
 import java.util.Scanner;
 import java.util.Stack;
